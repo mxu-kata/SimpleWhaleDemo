@@ -30,6 +30,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
+          # tags: <username>/<DockerHub-repo-name>:<tag>
           tags: mxu2018/docker-whale-repo:latest
 
       - name: Image digest
