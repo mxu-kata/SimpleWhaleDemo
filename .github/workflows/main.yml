@@ -30,7 +30,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: docker-whale-repo:latest
+          tags: mxu2018/docker-whale-repo:latest
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
